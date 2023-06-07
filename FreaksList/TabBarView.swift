@@ -10,7 +10,7 @@ struct TabBarView: View {
                         .renderingMode(.template)
                     Text("Home")
                 }
-            EmptyView()
+            FreaksListView()
                 .tabItem {
                     Image("Dashboard")
                         .renderingMode(.template)
