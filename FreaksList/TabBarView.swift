@@ -4,7 +4,7 @@ struct TabBarView: View {
     
     var body: some View {
         TabView() {
-            EmptyView()
+            HomeView()
                 .tabItem {
                     Image("Home")
                         .renderingMode(.template)
@@ -16,7 +16,7 @@ struct TabBarView: View {
                         .renderingMode(.template)
                     Text("Freaks")
                 }
-            EmptyView()
+            ProfileView()
                 .tabItem {
                     Image("Profile")
                         .renderingMode(.template)

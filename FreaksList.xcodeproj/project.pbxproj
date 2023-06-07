@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		76A754242A308ED2008F3294 /* FreaksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A754232A308ED2008F3294 /* FreaksListView.swift */; };
+		76A754262A309656008F3294 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A754252A309656008F3294 /* HomeView.swift */; };
+		76A754282A309666008F3294 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A754272A309666008F3294 /* ProfileView.swift */; };
 		76ADF7D12A3074E000647359 /* FreaksListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ADF7D02A3074E000647359 /* FreaksListApp.swift */; };
 		76ADF7D32A3074E000647359 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ADF7D22A3074E000647359 /* TabBarView.swift */; };
 		76ADF7D52A3074E100647359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76ADF7D42A3074E100647359 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		76A754232A308ED2008F3294 /* FreaksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreaksListView.swift; sourceTree = "<group>"; };
+		76A754252A309656008F3294 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		76A754272A309666008F3294 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		76ADF7CD2A3074E000647359 /* FreaksList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreaksList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76ADF7D02A3074E000647359 /* FreaksListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreaksListApp.swift; sourceTree = "<group>"; };
 		76ADF7D22A3074E000647359 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 				76ADF7D42A3074E100647359 /* Assets.xcassets */,
 				76ADF7D62A3074E100647359 /* Preview Content */,
 				76A754232A308ED2008F3294 /* FreaksListView.swift */,
+				76A754252A309656008F3294 /* HomeView.swift */,
+				76A754272A309666008F3294 /* ProfileView.swift */,
 			);
 			path = FreaksList;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				76ADF7D32A3074E000647359 /* TabBarView.swift in Sources */,
+				76A754262A309656008F3294 /* HomeView.swift in Sources */,
+				76A754282A309666008F3294 /* ProfileView.swift in Sources */,
 				76ADF7D12A3074E000647359 /* FreaksListApp.swift in Sources */,
 				76A754242A308ED2008F3294 /* FreaksListView.swift in Sources */,
 			);
