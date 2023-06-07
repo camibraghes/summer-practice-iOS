@@ -1,8 +1,25 @@
 import SwiftUI
 
 struct FreaksListView: View {
+    
+    let freaks = ["Calin", "Georgiana", "Anda", "Adi", "Sandra"]
+    
     var body: some View {
-        Text("Hello, Freaks!")
+        NavigationView {
+            List {
+                ForEach(freaks, id: \.self) { freak in
+                    NavigationLink {
+                        Text("Numele freak-ului este: \(freak)")
+                    } label: {
+                        HStack {
+                            Image(freak)
+                            Text(freak)
+                        }
+                    }
+                }
+                .navigationTitle("Freaks List")
+            }
+        }
     }
 }
 
