@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		76ADF7D12A3074E000647359 /* FreaksListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ADF7D02A3074E000647359 /* FreaksListApp.swift */; };
-		76ADF7D32A3074E000647359 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ADF7D22A3074E000647359 /* ContentView.swift */; };
+		76ADF7D32A3074E000647359 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ADF7D22A3074E000647359 /* TabBarView.swift */; };
 		76ADF7D52A3074E100647359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76ADF7D42A3074E100647359 /* Assets.xcassets */; };
 		76ADF7D82A3074E100647359 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76ADF7D72A3074E100647359 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		76ADF7CD2A3074E000647359 /* FreaksList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreaksList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76ADF7D02A3074E000647359 /* FreaksListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreaksListApp.swift; sourceTree = "<group>"; };
-		76ADF7D22A3074E000647359 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		76ADF7D22A3074E000647359 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		76ADF7D42A3074E100647359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76ADF7D72A3074E100647359 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				76ADF7D02A3074E000647359 /* FreaksListApp.swift */,
-				76ADF7D22A3074E000647359 /* ContentView.swift */,
+				76ADF7D22A3074E000647359 /* TabBarView.swift */,
 				76ADF7D42A3074E100647359 /* Assets.xcassets */,
 				76ADF7D62A3074E100647359 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76ADF7D32A3074E000647359 /* ContentView.swift in Sources */,
+				76ADF7D32A3074E000647359 /* TabBarView.swift in Sources */,
 				76ADF7D12A3074E000647359 /* FreaksListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
