@@ -54,14 +54,14 @@
 			path = Component;
 			sourceTree = "<group>";
 		};
-		76A7542C2A3099A3008F3294 /* Feature */ = {
+		76A7542C2A3099A3008F3294 /* Features */ = {
 			isa = PBXGroup;
 			children = (
 				76A7542F2A3099BC008F3294 /* Freaks */,
 				76A7542E2A3099B5008F3294 /* Profile */,
 				76A7542D2A3099AC008F3294 /* Home */,
 			);
-			path = Feature;
+			path = Features;
 			sourceTree = "<group>";
 		};
 		76A7542D2A3099AC008F3294 /* Home */ = {
@@ -107,7 +107,7 @@
 		76ADF7CF2A3074E000647359 /* FreaksList */ = {
 			isa = PBXGroup;
 			children = (
-				76A7542C2A3099A3008F3294 /* Feature */,
+				76A7542C2A3099A3008F3294 /* Features */,
 				76ADF7D02A3074E000647359 /* FreaksListApp.swift */,
 				76A7542A2A30995C008F3294 /* Utils */,
 				76ADF7D42A3074E100647359 /* Assets.xcassets */,
