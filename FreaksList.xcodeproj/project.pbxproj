@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		761598F22A3B3A1E005864F7 /* TVFreakListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761598F12A3B3A1E005864F7 /* TVFreakListApp.swift */; };
+		761598F42A3B3A1E005864F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761598F32A3B3A1E005864F7 /* ContentView.swift */; };
+		761598F62A3B3A1F005864F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761598F52A3B3A1F005864F7 /* Assets.xcassets */; };
+		761598F92A3B3A1F005864F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761598F82A3B3A1F005864F7 /* Preview Assets.xcassets */; };
 		76A754242A308ED2008F3294 /* FreaksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A754232A308ED2008F3294 /* FreaksListView.swift */; };
 		76A754262A309656008F3294 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A754252A309656008F3294 /* HomeView.swift */; };
 		76A754282A309666008F3294 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A754272A309666008F3294 /* ProfileView.swift */; };
@@ -17,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		761598EF2A3B3A1E005864F7 /* TVFreakList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVFreakList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		761598F12A3B3A1E005864F7 /* TVFreakListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVFreakListApp.swift; sourceTree = "<group>"; };
+		761598F32A3B3A1E005864F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		761598F52A3B3A1F005864F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		761598F82A3B3A1F005864F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76A754232A308ED2008F3294 /* FreaksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreaksListView.swift; sourceTree = "<group>"; };
 		76A754252A309656008F3294 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		76A754272A309666008F3294 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -28,6 +37,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		761598EC2A3B3A1E005864F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76ADF7CA2A3074E000647359 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,6 +54,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		761598F02A3B3A1E005864F7 /* TVFreakList */ = {
+			isa = PBXGroup;
+			children = (
+				761598F12A3B3A1E005864F7 /* TVFreakListApp.swift */,
+				761598F32A3B3A1E005864F7 /* ContentView.swift */,
+				761598F52A3B3A1F005864F7 /* Assets.xcassets */,
+				761598F72A3B3A1F005864F7 /* Preview Content */,
+			);
+			path = TVFreakList;
+			sourceTree = "<group>";
+		};
+		761598F72A3B3A1F005864F7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				761598F82A3B3A1F005864F7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		76A7542A2A30995C008F3294 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				76ADF7CF2A3074E000647359 /* FreaksList */,
+				761598F02A3B3A1E005864F7 /* TVFreakList */,
 				76ADF7CE2A3074E000647359 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				76ADF7CD2A3074E000647359 /* FreaksList.app */,
+				761598EF2A3B3A1E005864F7 /* TVFreakList.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +164,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		761598EE2A3B3A1E005864F7 /* TVFreakList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761598FC2A3B3A1F005864F7 /* Build configuration list for PBXNativeTarget "TVFreakList" */;
+			buildPhases = (
+				761598EB2A3B3A1E005864F7 /* Sources */,
+				761598EC2A3B3A1E005864F7 /* Frameworks */,
+				761598ED2A3B3A1E005864F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVFreakList;
+			productName = TVFreakList;
+			productReference = 761598EF2A3B3A1E005864F7 /* TVFreakList.app */;
+			productType = "com.apple.product-type.application";
+		};
 		76ADF7CC2A3074E000647359 /* FreaksList */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76ADF7DB2A3074E100647359 /* Build configuration list for PBXNativeTarget "FreaksList" */;
@@ -154,6 +208,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					761598EE2A3B3A1E005864F7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
 					76ADF7CC2A3074E000647359 = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -173,11 +230,21 @@
 			projectRoot = "";
 			targets = (
 				76ADF7CC2A3074E000647359 /* FreaksList */,
+				761598EE2A3B3A1E005864F7 /* TVFreakList */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		761598ED2A3B3A1E005864F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761598F92A3B3A1F005864F7 /* Preview Assets.xcassets in Resources */,
+				761598F62A3B3A1F005864F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76ADF7CB2A3074E000647359 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,6 +257,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		761598EB2A3B3A1E005864F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761598F42A3B3A1E005864F7 /* ContentView.swift in Sources */,
+				761598F22A3B3A1E005864F7 /* TVFreakListApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76ADF7C92A3074E000647359 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -205,6 +281,62 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		761598FA2A3B3A1F005864F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TVFreakList/Preview Content\"";
+				DEVELOPMENT_TEAM = 2NYK4JQZ6U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = agilefreaks.TVFreakList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.4;
+			};
+			name = Debug;
+		};
+		761598FB2A3B3A1F005864F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TVFreakList/Preview Content\"";
+				DEVELOPMENT_TEAM = 2NYK4JQZ6U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = agilefreaks.TVFreakList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.4;
+			};
+			name = Release;
+		};
 		76ADF7D92A3074E100647359 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -380,6 +512,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		761598FC2A3B3A1F005864F7 /* Build configuration list for PBXNativeTarget "TVFreakList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761598FA2A3B3A1F005864F7 /* Debug */,
+				761598FB2A3B3A1F005864F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		76ADF7C82A3074E000647359 /* Build configuration list for PBXProject "FreaksList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
