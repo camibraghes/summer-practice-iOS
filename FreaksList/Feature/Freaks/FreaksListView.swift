@@ -2,7 +2,7 @@ import SwiftUI
 
 struct FreaksListView: View {
     
-    let freaks = ["Calin", "Georgiana", "Anda", "Adi", "Sandra"]
+    let freaks = ["Călin", "Georgiana", "Anda", "Adi", "Sandra"]
     
     var body: some View {
         NavigationView {
