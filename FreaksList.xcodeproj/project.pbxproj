@@ -81,7 +81,6 @@
 		761598FD2A3C440F005864F7 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				761599082A3C608C005864F7 /* Resources */,
 				761599062A3C474B005864F7 /* Features */,
 			);
 			path = Shared;
@@ -120,13 +119,6 @@
 				761599092A3C7354005864F7 /* View */,
 			);
 			path = Freaks;
-			sourceTree = "<group>";
-		};
-		761599082A3C608C005864F7 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		761599092A3C7354005864F7 /* View */ = {
