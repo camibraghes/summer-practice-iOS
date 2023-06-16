@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		761598F22A3B3A1E005864F7 /* TVFreakListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761598F12A3B3A1E005864F7 /* TVFreakListApp.swift */; };
-		761598F42A3B3A1E005864F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761598F32A3B3A1E005864F7 /* ContentView.swift */; };
 		761598F62A3B3A1F005864F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761598F52A3B3A1F005864F7 /* Assets.xcassets */; };
 		761598F92A3B3A1F005864F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761598F82A3B3A1F005864F7 /* Preview Assets.xcassets */; };
+		761598FF2A3C44DE005864F7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ADF7D22A3074E000647359 /* TabBarView.swift */; };
+		761599002A3C457C005864F7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A754272A309666008F3294 /* ProfileView.swift */; };
+		761599022A3C4581005864F7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A754252A309656008F3294 /* HomeView.swift */; };
+		761599052A3C46AB005864F7 /* TVFreaksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761599042A3C46AB005864F7 /* TVFreaksListView.swift */; };
 		76A754242A308ED2008F3294 /* FreaksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A754232A308ED2008F3294 /* FreaksListView.swift */; };
 		76A754262A309656008F3294 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A754252A309656008F3294 /* HomeView.swift */; };
 		76A754282A309666008F3294 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A754272A309666008F3294 /* ProfileView.swift */; };
@@ -23,9 +26,9 @@
 /* Begin PBXFileReference section */
 		761598EF2A3B3A1E005864F7 /* TVFreakList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVFreakList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		761598F12A3B3A1E005864F7 /* TVFreakListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVFreakListApp.swift; sourceTree = "<group>"; };
-		761598F32A3B3A1E005864F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		761598F52A3B3A1F005864F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		761598F82A3B3A1F005864F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		761599042A3C46AB005864F7 /* TVFreaksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVFreaksListView.swift; sourceTree = "<group>"; };
 		76A754232A308ED2008F3294 /* FreaksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreaksListView.swift; sourceTree = "<group>"; };
 		76A754252A309656008F3294 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		76A754272A309666008F3294 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -57,8 +60,8 @@
 		761598F02A3B3A1E005864F7 /* TVFreakList */ = {
 			isa = PBXGroup;
 			children = (
+				761599032A3C4693005864F7 /* Feature */,
 				761598F12A3B3A1E005864F7 /* TVFreakListApp.swift */,
-				761598F32A3B3A1E005864F7 /* ContentView.swift */,
 				761598F52A3B3A1F005864F7 /* Assets.xcassets */,
 				761598F72A3B3A1F005864F7 /* Preview Content */,
 			);
@@ -73,6 +76,56 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		761598FD2A3C440F005864F7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				761599082A3C608C005864F7 /* Resources */,
+				761599062A3C474B005864F7 /* Features */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		761598FE2A3C44CF005864F7 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				76ADF7D22A3074E000647359 /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		761599032A3C4693005864F7 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				761599072A3C4C8A005864F7 /* Freaks */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		761599062A3C474B005864F7 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				76A7542D2A3099AC008F3294 /* Home */,
+				76A7542E2A3099B5008F3294 /* Profile */,
+				761598FE2A3C44CF005864F7 /* TabBar */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		761599072A3C4C8A005864F7 /* Freaks */ = {
+			isa = PBXGroup;
+			children = (
+				761599042A3C46AB005864F7 /* TVFreaksListView.swift */,
+			);
+			path = Freaks;
+			sourceTree = "<group>";
+		};
+		761599082A3C608C005864F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		76A7542A2A30995C008F3294 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,19 +137,16 @@
 		76A7542B2A309965008F3294 /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				76ADF7D22A3074E000647359 /* TabBarView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
 		};
-		76A7542C2A3099A3008F3294 /* Features */ = {
+		76A7542C2A3099A3008F3294 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
 				76A7542F2A3099BC008F3294 /* Freaks */,
-				76A7542E2A3099B5008F3294 /* Profile */,
-				76A7542D2A3099AC008F3294 /* Home */,
 			);
-			path = Features;
+			path = Feature;
 			sourceTree = "<group>";
 		};
 		76A7542D2A3099AC008F3294 /* Home */ = {
@@ -126,6 +176,7 @@
 		76ADF7C42A3074E000647359 = {
 			isa = PBXGroup;
 			children = (
+				761598FD2A3C440F005864F7 /* Shared */,
 				76ADF7CF2A3074E000647359 /* FreaksList */,
 				761598F02A3B3A1E005864F7 /* TVFreakList */,
 				76ADF7CE2A3074E000647359 /* Products */,
@@ -144,7 +195,7 @@
 		76ADF7CF2A3074E000647359 /* FreaksList */ = {
 			isa = PBXGroup;
 			children = (
-				76A7542C2A3099A3008F3294 /* Features */,
+				76A7542C2A3099A3008F3294 /* Feature */,
 				76ADF7D02A3074E000647359 /* FreaksListApp.swift */,
 				76A7542A2A30995C008F3294 /* Utils */,
 				76ADF7D42A3074E100647359 /* Assets.xcassets */,
@@ -261,7 +312,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				761598F42A3B3A1E005864F7 /* ContentView.swift in Sources */,
+				761599002A3C457C005864F7 /* ProfileView.swift in Sources */,
+				761599052A3C46AB005864F7 /* TVFreaksListView.swift in Sources */,
+				761599022A3C4581005864F7 /* HomeView.swift in Sources */,
+				761598FF2A3C44DE005864F7 /* TabBarView.swift in Sources */,
 				761598F22A3B3A1E005864F7 /* TVFreakListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
